@@ -2,9 +2,9 @@
 
  // alert(3+3)// we are using nodejs, not browser 
 
- console.log(3+3)
+//  console.log(3+3)
 
- console.log("sujal")
+//  console.log("sujal")
 
 
  let name =" sujal"
@@ -21,4 +21,42 @@
  // symbol=> unique
  // object
 
- console.log(typeof null); 
+//  console.log(typeof null); 
+
+ //Primitive
+
+ // 7 types : String, Number, Boolean, Null, Undefined, Symbol, BigInt
+
+ const score = 200
+ const scoreValue = 200.3
+
+ //const isLoggedIn = false
+ const outsideTem = null
+ let userEmail;
+
+ const id = Symbol('123')
+ const anotherId = Symbol('123')
+
+//  console.log(id=== anotherId);
+
+
+ const bigNumber = 8329472387423847234n
+
+
+
+ // Reference (Non primitive)
+
+ // Array[], Objects{}, Functions 
+
+ const heros = ["Ironman", "Hulk", "Caption", "Thor"];
+ let myObj ={
+    name: "sujal",
+    age: 22,}
+
+ const myFunction = function (){
+    console.log("Hello Wolrd");
+    
+ }
+ console.log(typeof anotherId);
+
+
