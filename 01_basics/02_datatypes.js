@@ -30,6 +30,8 @@
  const score = 200
  const scoreValue = 200.3
 
+  console.log(typeof scoreValue);
+
  //const isLoggedIn = false
  const outsideTem = null
  let userEmail;
@@ -41,12 +43,12 @@
 
 
  const bigNumber = 8329472387423847234n
-
+ 
 
 
  // Reference (Non primitive)
 
- // Array[], Objects{}, Functions 
+ // Array[], Objects{}, Functions (){} 
 
  const heros = ["Ironman", "Hulk", "Caption", "Thor"];
  let myObj ={
@@ -57,6 +59,41 @@
     console.log("Hello Wolrd");
     
  }
- console.log(typeof anotherId);
+//  console.log(typeof anotherId);
 
 
+
+
+// ********************************************************************
+//**********************************************//
+// Note:- In object value access in (.)<=    
+// ImportantNote:- Stack:in stack the vaule give copy to original value.
+// Heap: In Heap value are give reference vaule.
+//*********************************************//                                         
+
+
+
+// thre are two type of memory :-
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myGameName ="starlorduser"
+
+let anothername = myGameName 
+anothername = "sujaltrivedi"
+
+console.log(myGameName);
+console.log(anothername);
+
+let userOne = {
+   emali: "user@gmail.come",
+   AppleId: "sujal@tri"
+
+}
+
+let userTwo = userOne
+
+userTwo.AppleId="trivedi@sujal"
+
+console.log(userOne.AppleId);
+console.log(userTwo.AppleId);
