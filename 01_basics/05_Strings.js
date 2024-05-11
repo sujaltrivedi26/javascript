@@ -30,5 +30,15 @@ const url = "https://sujal.com/sujal%20trivedi"
 
 console.log(url.replace('%20', '_'));
 
- console.log(url.includes('hrey'));
+ console.log(url.includes('sujal'));
  
+
+
+
+ const myGameName = "Starlord"
+ const Gamelevel  = 67
+
+//  console.log(`hello myGamename is ${myGameName} and also my Gamelevl is ${Gamelevel}`);
+
+// console.log(myGameName.charAt(4));
+//  console.log(myGameName.indexOf('r'));
